@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finanzas para Profesionales No Financieros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Jost:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <!-- ══════════════ HOME ══════════════ -->
+    <div id="view-home" class="view active">
+      <header class="home-cover">
+        <div class="cover-tag">Informe de Curso · Certificación</div>
+        <h1>Finanzas para Profesionales No Financieros</h1>
+        <div class="cover-meta">
+          <div><strong>Institución</strong>UC Irvine</div>
+          <div><strong>Módulos</strong>4 módulos completados</div>
+          <div><strong>Categoría</strong>Finanzas Corporativas</div>
+        </div>
+      </header>
+
+      <section class="modules-section">
+        <div class="modules-label">
+          Selecciona un módulo para ver su contenido
+        </div>
+        <div class="modules-grid">
+          <a href="modulo1.html" class="module-card">
+            <div class="card-num">01</div>
+            <div class="card-label">Módulo 1</div>
+            <div class="card-title">
+              Aspectos Esenciales sobre Finanzas y Contabilidad
+            </div>
+            <div class="card-desc">
+              Estados financieros, ecuaciones contables y bases del registro
+              financiero organizacional.
+            </div>
+            <div class="card-cta">
+              Ver contenido
+              <svg
+                width="16"
+                height="16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </div>
+          </a>
+
+          <a href="modulo2.html" class="module-card">
+            <div class="card-num">02</div>
+            <div class="card-label">Módulo 2</div>
+            <div class="card-title">Determinación de Costos</div>
+            <div class="card-desc">
+              Liquidez, gestión de activos, rotación de inventario y
+              apalancamiento financiero.
+            </div>
+            <div class="card-cta">
+              Ver contenido
+              <svg
+                width="16"
+                height="16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </div>
+          </a>
+
+          <a href="modulo3.html" class="module-card">
+            <div class="card-num">03</div>
+            <div class="card-label">Módulo 3</div>
+            <div class="card-title">Índices Financieros</div>
+            <div class="card-desc">
+              Rentabilidad, punto de equilibrio y análisis multiplicativo
+              DuPont.
+            </div>
+            <div class="card-cta">
+              Ver contenido
+              <svg
+                width="16"
+                height="16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </div>
+          </a>
+
+          <a href="modulo4.html" class="module-card">
+            <div class="card-num">04</div>
+            <div class="card-label">Módulo 4</div>
+            <div class="card-title">Valoración</div>
+            <div class="card-desc">
+              Métricas de mercado, evaluación de proyectos, VPN, TIR y WACC.
+            </div>
+            <div class="card-cta">
+              Ver contenido
+              <svg
+                width="16"
+                height="16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </div>
+          </a>
+        </div>
+      </section>
+      <footer>
+        Finanzas para Profesionales No Financieros &middot; UC Irvine
+      </footer>
+    </div>
+
+    <!-- ══════════════ DETAIL VIEW ══════════════ -->
+    <div id="view-detail" class="view">
+      <!-- MÓDULO 1 -->
+      <div id="mod-1" class="mod-content" style="display: none">
+        <div class="detail-header">
+          <button class="back-btn" onclick="goHome()">
+            <svg
+              width="16"
+              height="16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M19 12H5M11 6l-6 6 6 6" />
+            </svg>
+            Volver a módulos
+          </button>
+          <div class="detail-label">Módulo 1</div>
+          <h2 class="detail-title">
+            Aspectos Esenciales sobre Finanzas y Contabilidad
+          </h2>
+          <div class="detail-num">01</div>
+        </div>
+        <div class="detail-body">
+          <div class="module-intro">
+            Establece las bases operativas de cómo se registra y resume la
+            información financiera de una organización. Se enfoca en comprender
+            qué posee la empresa, qué debe y cómo genera valor de manera
+            integral.
+          </div>
+
+          <div class="section">
+            <div class="section-title">Ecuaciones Básicas</div>
+            <div class="concept">
+              <div class="concept-name">La Ecuación Contable</div>
+              <div class="concept-desc">
+                Todo lo que posee la empresa (activos) está financiado por
+                obligaciones con terceros (pasivos) o por el aporte directo de
+                los dueños (patrimonio neto). Su objetivo es mantener registros
+                precisos de las transacciones.
+              </div>
+              <span class="formula-tag"
+                >Activos = Pasivos + Patrimonio neto</span
+              >
+            </div>
+            <div class="concept">
+              <div class="concept-name">Ecuaciones Financieras</div>
+              <div class="concept-desc">
+                Definen la rentabilidad operativa básica a través de la relación
+                entre los ingresos, los costos fijos y variables y el volumen de
+                operación. Permiten tomar decisiones de control de costos a
+                mediano y largo plazo.
+              </div>
+              <span class="formula-tag">Ingresos = Precio × Volumen</span><br />
+              <span class="formula-tag">Costo = Fijo + Variable</span><br />
+              <span class="formula-tag">Ganancias = Ingresos − Costos</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">
+              Los Cuatro Estados Financieros Básicos
+            </div>
+            <ol class="numbered-list">
+              <li>
+                <div>
+                  <strong>Balance General:</strong><br /><span
+                    >Estado financiero estático que funciona como una
+                    "fotografía" de la empresa en un momento determinado. Resume
+                    activos, pasivos y patrimonio neto.</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div>
+                  <strong>Estado de Resultados:</strong><br /><span
+                    >Mide el rendimiento financiero y la rentabilidad operativa
+                    durante un período (trimestre o año fiscal). Muestra cómo se
+                    obtienen ingresos y se realizan gastos operativos y no
+                    operativos.</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div>
+                  <strong>Estado de Flujo de Efectivo:</strong><br /><span
+                    >Indica el dinero líquido real que ingresa y egresa de la
+                    organización. A diferencia del método de lo devengado,
+                    brinda información más real sobre la capacidad de
+                    pago.</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div>
+                  <strong>Estado de Evolución del Patrimonio Neto:</strong
+                  ><br /><span
+                    >Muestra los cambios en la participación de los accionistas
+                    debidos a utilidades, pérdidas, venta/recompra de acciones y
+                    pago de dividendos.</span
+                  >
+                </div>
+              </li>
+            </ol>
+          </div>
+
+          <div class="evidence-section">
+            <div class="evidence-title">Evidencias del Módulo 1</div>
+            <div class="evidence-grid">
+              <div class="evidence-slot">
+               <img
+                    src="images/m1.1.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/m1.2.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/m1.4.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/q1.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/fin 1.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+          </div>
+        </div>
+        <footer>
+          Módulo 1 &middot; Finanzas para Profesionales No Financieros &middot;
+          UC Irvine
+        </footer>
+      </div>
+
+      <!-- MÓDULO 2 -->
+      <div id="mod-2" class="mod-content" style="display: none">
+        <div class="detail-header">
+          <button class="back-btn" onclick="goHome()">
+            <svg
+              width="16"
+              height="16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M19 12H5M11 6l-6 6 6 6" />
+            </svg>
+            Volver a módulos
+          </button>
+          <div class="detail-label">Módulo 2</div>
+          <h2 class="detail-title">Determinación de Costos</h2>
+          <div class="detail-num">02</div>
+        </div>
+        <div class="detail-body">
+          <div class="module-intro">
+            Se centra en analizar la eficiencia de la empresa a corto y largo
+            plazo, evaluando la disponibilidad inmediata de dinero para afrontar
+            deudas, el control del inventario y la composición general de la
+            deuda.
+          </div>
+
+          <div class="section">
+            <div class="section-title">Índices de Liquidez</div>
+            <div class="concept">
+              <div class="concept-name">Índice de Capital de Trabajo</div>
+              <div class="concept-desc">
+                Mide la capacidad de la empresa para cubrir sus deudas a corto
+                plazo con sus recursos corrientes. Un rango apropiado se sitúa
+                entre 1,2 y 2; cifras inferiores a 1 implican capital de trabajo
+                negativo.
+              </div>
+              <span class="formula-tag"
+                >Capital de Trabajo = Activos corrientes / Pasivos
+                corrientes</span
+              >
+            </div>
+            <div class="concept">
+              <div class="concept-name">Razón Rápida (Prueba Ácida)</div>
+              <div class="concept-desc">
+                Indicador de liquidez más riguroso; excluye el inventario por
+                ser el activo corriente menos líquido y el más difícil de
+                convertir en efectivo ante una emergencia financiera.
+              </div>
+              <span class="formula-tag"
+                >Prueba Ácida = (Activos corrientes − Inventario) / Pasivos
+                corrientes</span
+              >
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">
+              Índices de Rotación (Gestión de Activos)
+            </div>
+            <div class="concept">
+              <div class="concept-name">Rotación del Inventario</div>
+              <div class="concept-desc">
+                Mide la cantidad de veces que el inventario se vende y se
+                reemplaza en el año. Un índice bajo indica bajas ventas y exceso
+                de inventario estancado.
+              </div>
+              <span class="formula-tag"
+                >Rotación de Inventario = Ventas / Inventario</span
+              >
+            </div>
+            <div class="concept">
+              <div class="concept-name">
+                Período de Cobro de Cuentas por Cobrar
+              </div>
+              <div class="concept-desc">
+                Mide la cantidad de días promedio durante los cuales las cuentas
+                por cobrar siguen pendientes de cobro efectivo.
+              </div>
+              <span class="formula-tag"
+                >Período de Cobro = Promedio C×C / Promedio ventas diarias</span
+              >
+            </div>
+            <div class="concept">
+              <div class="concept-name">
+                Días para la Conversión del Inventario en Efectivo
+              </div>
+              <div class="concept-desc">
+                Calcula la cantidad promedio de días desde que se recibe la
+                mercancía hasta que se obtiene el efectivo por su venta,
+                combinando la rotación de cuentas por cobrar y de inventario.
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">Índices de Deuda (Apalancamiento)</div>
+            <div class="concept">
+              <div class="concept-name">Índice de Deuda</div>
+              <div class="concept-desc">
+                Proporción de la deuda total respecto a los activos totales. A
+                mayor indicador, mayor nivel de apalancamiento y riesgo
+                financiero de la organización.
+              </div>
+              <span class="formula-tag"
+                >Índice de Deuda = Deuda total / Activos totales</span
+              >
+            </div>
+            <div class="concept">
+              <div class="concept-name">Índice de Deuda a Patrimonio Neto</div>
+              <div class="concept-desc">
+                Compara el volumen de compromiso de los acreedores externos con
+                el capital neto aportado por los accionistas.
+              </div>
+              <span class="formula-tag"
+                >Deuda a Patrimonio = Pasivos totales / Patrimonio neto</span
+              >
+            </div>
+          </div>
+
+          <div class="evidence-section">
+            <div class="evidence-title">Evidencias del Módulo 1</div>
+            <div class="evidence-grid">
+              <div class="evidence-slot">
+               <img
+                    src="images/m2.1.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/m2.2.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/m2.3.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/q2.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+          
+          </div>
+        </div>
+        <footer>
+          Módulo 2 &middot; Finanzas para Profesionales No Financieros &middot;
+          UC Irvine
+        </footer>
+      </div>
+
+      <!-- MÓDULO 3 -->
+      <div id="mod-3" class="mod-content" style="display: none">
+        <div class="detail-header">
+          <button class="back-btn" onclick="goHome()">
+            <svg
+              width="16"
+              height="16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M19 12H5M11 6l-6 6 6 6" />
+            </svg>
+            Volver a módulos
+          </button>
+          <div class="detail-label">Módulo 3</div>
+          <h2 class="detail-title">Índices Financieros</h2>
+          <div class="detail-num">03</div>
+        </div>
+        <div class="detail-body">
+          <div class="module-intro">
+            Analiza la capacidad de la empresa para generar utilidades a partir
+            de sus ventas, activos y patrimonio neto, integrando herramientas
+            analíticas complejas como el modelo multiplicativo DuPont.
+          </div>
+
+          <div class="section">
+            <div class="section-title">Índices de Rentabilidad</div>
+            <div class="concept">
+              <div class="concept-name">Margen de Ganancia Neta</div>
+              <div class="concept-desc">
+                Muestra las ganancias netas como un porcentaje de las ventas,
+                indicando cuánta utilidad queda por cada dólar de venta.
+              </div>
+              <span class="formula-tag"
+                >Margen de Ganancia Neta = Ganancias netas / Ventas</span
+              >
+            </div>
+            <div class="concept">
+              <div class="concept-name">Rentabilidad Económica (ROA)</div>
+              <div class="concept-desc">
+                Indica con qué eficiencia la empresa convierte el dinero
+                disponible para invertir en ganancias netas reales.
+              </div>
+              <span class="formula-tag"
+                >ROA = Ganancias netas / Activos totales</span
+              >
+            </div>
+            <div class="concept">
+              <div class="concept-name">Rentabilidad Financiera (ROE)</div>
+              <div class="concept-desc">
+                Sirve para comparar la rentabilidad que reciben los dueños con
+                respecto a otras empresas del mismo sector.
+              </div>
+              <span class="formula-tag"
+                >ROE = Ganancias netas / Patrimonio neto</span
+              >
+            </div>
+            <div class="concept">
+              <div class="concept-name">
+                Rentabilidad sobre el Capital Empleado (ROCE)
+              </div>
+              <div class="concept-desc">
+                Mide la eficiencia con la que la empresa utiliza el capital
+                total invertido a largo plazo para generar rendimiento
+                operativo.
+              </div>
+              <span class="formula-tag">ROCE = EBIT / Capital empleado</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">Análisis del Punto de Equilibrio</div>
+            <div class="concept">
+              <div class="concept-desc">
+                Determina el punto en el cual los ingresos recibidos equivalen
+                exactamente a los costos totales. Las ventas por encima de esta
+                cifra permiten calcular el margen de seguridad de la
+                organización.
+              </div>
+              <span class="formula-tag"
+                >Punto de Equilibrio = Costo fijo / (Precio − Costo
+                variable)</span
+              >
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">La Pirámide de DuPont</div>
+            <div class="dupont-box">
+              <div class="dupont-title">
+                El ROE se ve determinado por tres factores multiplicativos:
+              </div>
+              <div class="dupont-items">
+                <div class="dupont-item">
+                  <div class="di-label">Factor 1</div>
+                  <div class="di-name">Eficiencia Operativa</div>
+                  <div class="di-formula">Ganancias / Ventas</div>
+                </div>
+                <div class="dupont-item">
+                  <div class="di-label">Factor 2</div>
+                  <div class="di-name">Eficiencia de Uso de Activos</div>
+                  <div class="di-formula">Ventas / Activos</div>
+                </div>
+                <div class="dupont-item">
+                  <div class="di-label">Factor 3</div>
+                  <div class="di-name">Apalancamiento Financiero</div>
+                  <div class="di-formula">Activos / Patrimonio neto</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="evidence-section">
+            <div class="evidence-title">Evidencias del Módulo 1</div>
+            <div class="evidence-grid">
+              <div class="evidence-slot">
+               <img
+                    src="images/m3.1.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/m3.2.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/m3.3.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/m3.4.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/q3.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/fin 3.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+          </div>
+        </div>
+        <footer>
+          Módulo 3 &middot; Finanzas para Profesionales No Financieros &middot;
+          UC Irvine
+        </footer>
+      </div>
+
+      <!-- MÓDULO 4 -->
+      <div id="mod-4" class="mod-content" style="display: none">
+        <div class="detail-header">
+          <button class="back-btn" onclick="goHome()">
+            <svg
+              width="16"
+              height="16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M19 12H5M11 6l-6 6 6 6" />
+            </svg>
+            Volver a módulos
+          </button>
+          <div class="detail-label">Módulo 4</div>
+          <h2 class="detail-title">Valoración</h2>
+          <div class="detail-num">04</div>
+        </div>
+        <div class="detail-body">
+          <div class="module-intro">
+            Cubre los indicadores del mercado de valores, la medición del valor
+            del dinero en el tiempo y las tasas necesarias para justificar las
+            inversiones a largo plazo.
+          </div>
+
+          <div class="section">
+            <div class="section-title">
+              Valoración de la Empresa y Métricas de Mercado
+            </div>
+            <div class="concept">
+              <div class="concept-name">Beneficio por Acción (BPA)</div>
+              <div class="concept-desc">
+                Asigna las ganancias netas a cada acción en circulación. Es la
+                variable más relevante para determinar el precio de mercado.
+              </div>
+              <span class="formula-tag"
+                >BPA = (Ganancias netas − Dividendos preferentes) / Acciones en
+                circulación</span
+              >
+            </div>
+            <div class="concept">
+              <div class="concept-name">Dividendo por Acción (DPA)</div>
+              <div class="concept-desc">
+                Representa la suma de dividendos declarados y pagados por cada
+                acción ordinaria emitida durante el año fiscal.
+              </div>
+              <span class="formula-tag"
+                >DPA = (Dividendo − Dividendos especiales) / Cantidad de
+                acciones</span
+              >
+            </div>
+            <div class="concept">
+              <div class="concept-name">Relación Precio-Ganancia (RPG)</div>
+              <div class="concept-desc">
+                Muestra qué tanto desean pagar los inversores en el mercado
+                bursátil por cada dólar de ganancia neta actual.
+              </div>
+              <span class="formula-tag"
+                >RPG = Valor de mercado por acción / Beneficio por acción</span
+              >
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">
+              Evaluación de Proyectos (Flujos de Efectivo Descontados)
+            </div>
+            <div class="concept">
+              <div class="concept-name">Valor Presente Neto (VPN)</div>
+              <div class="concept-desc">
+                Diferencia entre el valor presente de los flujos de entrada y de
+                salida de efectivo. Emplea flujos de efectivo libres y una tasa
+                de descuento para medir la creación de valor neto absoluto de un
+                proyecto corporativo.
+              </div>
+            </div>
+            <div class="concept">
+              <div class="concept-name">Tasa Interna de Retorno (TIR)</div>
+              <div class="concept-desc">
+                Tasa de descuento porcentual que convierte el VPN de un proyecto
+                exactamente en cero. Sirve de criterio directo para clasificar y
+                seleccionar inversiones viables.
+              </div>
+              <span class="formula-tag">TIR → VPN = 0</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">
+              Costo Promedio Ponderado de Capital (WACC)
+            </div>
+            <div class="concept">
+              <div class="concept-desc">
+                Cálculo del costo de capital total en el cual cada categoría de
+                capital (deuda y patrimonio) se pondera de manera proporcional.
+                Funciona como la tasa de descuento base en las fórmulas de
+                evaluación. Si el coeficiente beta o el costo de deuda aumentan,
+                el WACC se incrementa, lo que representa mayor riesgo y una baja
+                en la valoración.
+              </div>
+            </div>
+          </div>
+
+          <div class="evidence-section">
+            <div class="evidence-title">Evidencias del Módulo 1</div>
+            <div class="evidence-grid">
+              <div class="evidence-slot">
+               <img
+                    src="images/m4.1.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/m4.2.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/m4.3.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            <div class="evidence-slot">
+               <img
+                    src="images/m4.4.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+            
+            <div class="evidence-slot">
+               <img
+                    src="images/fin.png"
+                    alt="Evidencia Módulo 1"
+                    style="max-width: 100%; height: auto"
+                  />
+            </div>
+          </div>
+        </div>
+        <footer>
+          Módulo 4 &middot; Finanzas para Profesionales No Financieros &middot;
+          UC Irvine
+        </footer>
+      </div>
+    </div>
+    <!-- /view-detail -->
+
+    <script src="js.js"></script>
+  </body>
+</html>
